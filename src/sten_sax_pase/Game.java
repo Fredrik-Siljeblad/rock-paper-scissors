@@ -57,11 +57,18 @@ public class Game {
         }
     }
 
+    /**
+     * Allows game to exit main loop
+     */
     private void endGame() {
         this.continuePlaying = false;
         return;
     }
 
+    /**
+     * Menu 2, the after match menu, choose between 1 back to main menu, 2 play again (same as 1 of
+     * menu1) and 3 end the game (same as 3 of menu 1)
+     */
     public void runMenu2() {
         System.out.println("1. Meny   2. Kör igen   3. Avsluta Spelet");
         System.out.println("User Input: (här matas en siffra in av spelaren, antingen \"1\", \"2\", eller \"3\")");

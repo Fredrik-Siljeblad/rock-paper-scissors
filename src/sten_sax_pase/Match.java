@@ -22,7 +22,7 @@ public class Match {
         int resultNr = random.nextInt(3);
         // i = 0 => draw/computerMove = playerMove, 1 win (computerMove = playerMove+1) and 2 loss
         // N.B. It doesn't matter to the outcome of the game if the outcome or the computers move
-        // is random!! rNr = (pM -cM + 3)%3 <=> cM =
+        // is random!!
         this.computerMove = moves[playerMoveNr + resultNr];
         // "vinst", "oavgjort" eller "förlust", beror på playerMove & computerMove.
         this.matchResult = results[resultNr];
