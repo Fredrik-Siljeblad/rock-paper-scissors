@@ -13,22 +13,6 @@ public class Game {
     }
 
     /**
-     * The main loop that keeps the game running until the user chooses to end the game.
-     */
-    private void runGame() {
-
-        while(continuePlaying){
-            switch (nextMenu){
-                case 1:
-                    runMenu1();
-                    break;
-                case 2:
-                    runMenu2();
-            }
-        }
-    }
-
-    /**
      * Menu 1) chose between new match, show history or end game.
      */
     public void runMenu1(){
